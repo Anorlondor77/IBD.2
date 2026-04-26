@@ -1,6 +1,6 @@
-#INFRAESTRUCTURES PER AL BIG DATA
+**INFRAESTRUCTURES PER AL BIG DATA
 (17244106, 17254118, 17924106)
-HW2: Analítica de Big Data con PySpark
+HW2: Analítica de Big Data con PySpark**
 
 Descripción de la tarea: Nueva York genera diariamente enormes volúmenes de datos de
 movilidad urbana. En este proyecto, diseñaréis e implementaréis una tubería completa de
