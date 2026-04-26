@@ -2,6 +2,16 @@
 (17244106, 17254118, 17924106)
 HW2: Analítica de Big Data con PySpark**
 
+Descargar los siguientes datasets desde la fuente oficial NYC TLC:
+
+- https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet
+- https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet
+- https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-03.parquet
+
+Guardar los archivos en una carpeta local llamada "data/".
+
+El código debe comprobar si los archivos ya existen antes de descargarlos.
+
 Descripción de la tarea: Nueva York genera diariamente enormes volúmenes de datos de
 movilidad urbana. En este proyecto, diseñaréis e implementaréis una tubería completa de
 analítica de big data con PySpark para procesar, limpiar, analizar y modelar datos de trayectos
