@@ -48,7 +48,7 @@ def main():
 
     # Resolver nombres de columnas esperadas (variantes comunes)
     pickup_hour_col = _resolve_col(df, ["pickup_hour", "hour", "pickupHour"])
-    pickup_dow_col = _resolve_col(df, ["pickup_day_of_week", "day_of_week", "pickup_dow", "weekday"])
+    pickup_dow_col = _resolve_col(df, ["pickup_dayofweek", "pickup_day_of_week", "day_of_week", "pickup_dow", "weekday"])
     pickup_zone_col = _resolve_col(df, ["pickup_zone", "PULocationID", "pu_location_id", "pickup_location_id"])
     dropoff_zone_col = _resolve_col(df, ["dropoff_zone", "DOLocationID", "do_location_id", "dropoff_location_id"])
     fare_col = _resolve_col(df, ["fare_amount", "fare", "trip_fare"])
